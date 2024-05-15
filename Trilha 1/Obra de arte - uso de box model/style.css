@@ -1,0 +1,22 @@
+div{
+    height: 400px;
+    width: 400px;
+    border:14px double palevioletred;
+    background-image: url(img/animal.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 5px 3px pink;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+p{
+    color: rgb(253, 202, 233);
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin-top: 93%;
+    margin-right: 10px;
+    font-weight: 600;
+}
