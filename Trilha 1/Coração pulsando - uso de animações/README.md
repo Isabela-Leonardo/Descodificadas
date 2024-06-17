@@ -1,6 +1,6 @@
-# Exercício Obra de arte
+# Exercício Coração pulsando
 
-Este exercício consiste em um site simples que reproduz uma imagem em um quadro usando as configurações de Box Model. O objetivo é desenvolver habilidades na utilização do Box Model para controlar o layout e a aparência da página, além de explorar a criatividade na composição do quadro, utilizando borda, margem, imagem, e texto.
+Este exercício consiste em um site simples que exibe um coração pulsando. O objetivo é desenvolver habilidades na utilização de animações CSS, para criar efeitos visuais dinâmicos e interativos. A atividade aborda a manipulação de propriedades como opacity e animation para animar a imagem do coração, simulando o movimento de um batimento cardíaco.
 
 <br>
 
@@ -12,12 +12,13 @@ Este exercício consiste em um site simples que reproduz uma imagem em um quadro
 
 <br>
 
+
 ## 🖥️ Layout
 
 Você pode visualizar o layout do projeto abaixo: 
 
+<img style="border-radius:5px;" src="./img/layout.png" width="400px" alt="Layout" />
 
-<img style="border-radius:6px;" src="./img/tela.png" width="400px" alt="Layout" />
 
 <br>
 

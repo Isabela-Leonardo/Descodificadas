@@ -15,7 +15,7 @@ Este exercício consiste em um site simples que apresenta uma grade de quadrados
 Você pode visualizar o layout do projeto abaixo: 
 
 
-<img style="border-radius:6px;" src="./github/layout.png" width="330" alt="Tela com quadrados coloridos" />
+<img style="border-radius:6px;" src="./github/layout.png" width="330px" alt="Layout" />
 
 
 

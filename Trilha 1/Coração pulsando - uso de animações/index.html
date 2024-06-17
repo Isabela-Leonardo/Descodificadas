@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coração Pulsando</title>
+
+    <style>
+        body{
+            background-color: #e4abd3;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: #810568;
+            font-size: 40px;
+        }
+        p{
+            color: #800080;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+        img{
+            height: 400px;
+        }
+
+        .imagem-pulsando{
+            animation: pulsar 1s infinite;   
+        }
+
+        @keyframes pulsar {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.4;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Descodificadas</h1>
+        <p>Eu amo tecnologia!</p>
+        <img class="imagem-pulsando" src="/img/coracao.png" alt="coração rosa">
+    </div>
+</body>
+</html>
