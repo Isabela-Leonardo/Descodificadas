@@ -18,7 +18,7 @@ Este repositório contém o código-fonte do projeto final do curso "Descodifica
 
 Você pode visualizar o layout do projeto abaixo: 
 
-<img src="./img/layout.png" width="425px" alt="Layout" />
+<img src="./img/layout.png" width="500px" alt="Layout" />
 
 
 <br>
