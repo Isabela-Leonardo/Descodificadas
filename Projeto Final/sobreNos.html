@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+    <link rel="shortcut icon" href="img/logoDelicias.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="img/logoDelicias.png" alt="Delícias da Dominick">
+            <ul class="nav-itens">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="salgados.html">Salgados</a>
+                </li>
+                <li>
+                    <a href="doces.html">Doces</a>
+                </li>
+                <li>
+                    <a id="menu-sobre" href="sobreNos.html">Sobre nós</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner-sobre">
+        <h1>Sobre nós</h1>
+    </section>
+    
+
+    <section class="bemVindo">
+        <p>Na Delícias da Dominick, acreditamos que a cozinha é o nosso laboratório, 
+            onde criamos experiências gastronômicas que encantam e surpreendem a cada mordida.
+        </p>
+        <p>Nossos produtos são feitos com ingredientes frescos e de alta qualidade, 
+            preparados com amor e cuidado. Cada item no nosso cardápio é uma obra-prima culinária, 
+            criada para encantar e satisfazer.
+        </p>
+        <p>Faça seu pedido agora e deixe-nos levar a magia dos nossos doces e salgados diretamente 
+            para o seu lar. Quer seja para um momento especial, uma reunião com amigos ou 
+            simplesmente para satisfazer um desejo repentino por algo gostoso, estamos aqui para 
+            tornar seus momentos mais saborosos.
+        </p>
+    </section>
+
+    <section class="horarioLocal">
+        <div class="horario">
+            <h1>Horário de funcionamento</h1>
+            <ul>
+                <h2>Segunda-feira</h2>
+                <li>Fechado</li>
+
+                <h2>Terça-feira</h2>
+                <li>13h - 22h</li>
+
+                <h2>Quarta-feira</h2>
+                <li>13h - 18h</li>
+
+                <h2>Quinta-feira</h2>
+                <li>13h - 22h</li>
+
+                <h2>Sexta-feira</h2>
+                <li>13h - 22h</li>
+
+                <h2>Sábado</h2>
+                <li>13h - 22h</li>
+                <h2>Domingo</h2>
+                <li>Fechado</li>
+            </ul>
+        </div>
+        
+        <div class="localizacao">
+            <h1>Localização</h1>
+            <p>São Paulo - Zona leste</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.3958359975!2d-46.9249740328676!3d-23.68143453252425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1713453018238!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+    </section>
+
+    <section class="formulario">
+        <h1>Formulário de Novidades</h1>
+        <p>Inscreva-se agora em nosso formulário e garanta acesso em primeira mão às últimas 
+            novidades e promoções exclusivas! 
+        </p>
+        <p>Seja o primeiro a saber sobre lançamentos de produtos, eventos especiais e ofertas 
+            imperdíveis. Não perca a chance de fazer parte da nossa comunidade e desfrutar de 
+            vantagens especiais reservadas apenas para nossos membros VIP.
+        </p>
+        <p>
+            Inscreva-se hoje e não deixe escapar nenhum detalhe do universo de sabores da 
+            Delícias da Dominick!  
+        </p>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome"  required>
+            <br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email"  required>
+            <br>
+            <label for="">Idade</label>
+            <select name="idade">
+                <option value="0"></option>
+                <option value="1">Entre 18 - 28</option>
+                <option value="2">Entre 29 - 39</option>
+                <option value="3">Entre 40 - 50</option>
+                <option value="4">Entre 51 - 61</option>
+                <option value="5">Mais de 61 anos</option>
+            </select>
+            <br>
+            <label for="celular">Celular</label>
+            <input type="tel" name="celular" >
+            <br>
+            <input id="enviar" type="submit" name="enviar" value="Enviar">
+            
+        </form>
+    </section>
+
+    <footer>
+        <div class="rodape">
+            <div>
+                <h4>Cardápios</h4>
+                <a href="salgados.html">Cardápio de Salgados</a>
+                <a href="doces.html">Cardápio de Doces</a>
+            </div>
+    
+            <div class="informacoes-contato">
+                <h4>Informações de Contato</h4>
+                <a class="contato" href="https://api.whatsapp.com/send/?phone=5511953380553&text&type=phone_number&app_absent=0" target="_blank">
+                    <img id="whatsapp" src="img/logoWhatsapp.png" alt="WhatsApp">
+                </a>
+                <a class="contato" href="https://www.ifood.com.br/delivery/sao-paulo-sp/delicias-da-dominick---doces-e-salgados-vila-curuca/89272dc9-1c2c-41f2-97d4-286598daf4d9" target="_blank">
+                    <img id="ifood" src="img/logoIfood.png" alt="iFood">
+                </a>
+                <a class="contato" href="https://www.instagram.com/deliciasdadominick/" target="_blank">
+                    <img id="insta" src="img/logoInstagram.png" alt="Instagram">
+                </a>
+            </div>
+
+            <div>
+                <h4>Sobre Nós</h4>
+                <a href="sobreNos.html">Horário de funcionamento</a>
+                <a href="sobreNos.html">Localização</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

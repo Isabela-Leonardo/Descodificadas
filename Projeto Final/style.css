@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Aplicando para todos os HTML */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --fundo-marrom: rgb(113, 59, 33);
+    --cor-texto-branco: #f9f9f9;
+    --fundo-amarelado: #ffbe59;
+    --fundo-cinza: #cbaf8b;
+    --cor-texto-preto: #1c1c1c;
+}
+
+body{
+    line-height: 1.6;
+}
+
+section{
+    padding: 65px 75px;
+    
+}
+
+nav{
+    background-color: var(--fundo-marrom);
+    text-decoration: none;
+    padding: 5px 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    width: 100%; 
+}
+
+.nav-itens{
+    list-style: none;
+    display: flex;
+}
+.nav-itens>li>a{
+    margin-left: 40px;
+    font-weight: 500;
+    font-size:20px;
+}
+nav img{
+    border-radius: 50%;
+    width: 80px;
+}
+nav a{
+    color: var(--cor-texto-branco);
+    text-decoration: none;
+}
+
+#menu-index, #menu-salgados, #menu-doces, #menu-sobre{
+    border-bottom: 2px solid var(--fundo-amarelado);
+    padding-bottom: 5px;
+}
+
+h1{
+    margin-bottom: 35px;
+    font-size: 28px;
+}
+p{
+    padding-bottom: 25px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+button{
+    background-color: var(--fundo-marrom);
+    color: var(--cor-texto-branco);
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    float: right;
+}
+a{
+    color: var(--cor-texto-branco);
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--fundo-marrom);
+    color: var(--cor-texto-branco); 
+    padding: 65px 75px 5px;
+}
+
+
+/* Aplicando no Index.html */
+
+.topo{
+    background-color: var(--fundo-amarelado);
+}
+
+#banner{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+
+.bemVindo{
+    background-color: var(--fundo-marrom);
+    color: var(--cor-texto-branco);
+    text-decoration: none;
+}
+
+
+.salgados{
+    background-color: var(--fundo-amarelado);
+    padding-bottom: 90px;
+}
+
+.salgados img, .doces img{
+    height: 360px;   
+}
+
+.salgados h1, .doces h1{
+    color: var(--cor-texto-preto);
+}
+
+.cardapio-imagens{
+    display: flex; 
+    justify-content: space-between; 
+}
+
+
+
+.botao-cardapio{
+    margin-top: 15px;
+}
+
+
+
+
+.doces{
+    background-color: var(--fundo-cinza);
+        
+}
+
+
+
+
+footer>.rodape {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+footer>.rodape>div{
+    display: inline-block;
+    margin: 0 70px;
+}
+
+footer a{
+    display: block;
+    text-align: left;
+    margin-top: 8px;  
+}
+
+footer h4{
+    background-color: var(--fundo-amarelado);
+    color: var(--cor-texto-preto);
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.contato{
+    display: inline;
+}
+
+footer p{
+    margin-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/* Salgados.html */
+
+#banner-salgados{
+    height: 500px;
+    width: 100%;
+    
+    background-image: url(./img/banner-coxinhas.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner-salgados h1{
+    color: var(--cor-texto-branco);
+    font-size: 48px;
+}
+
+.salgados-fritos{
+    background-color: var(--fundo-amarelado);
+    padding-bottom: 110px;
+}
+.salgados-assados{
+    background-color: var(--fundo-cinza);
+    padding-bottom: 110px;
+}
+.salgados-fritos h1, .salgados-assados h1{
+    color: var(--fundo-marrom);
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.salgados-fritos p, .salgados-assados p{
+    color: var(--fundo-marrom);
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 600;
+}
+
+.salgados-fritos .imagem-lista, .salgados-assados .imagem-lista {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.salgados-fritos img, .salgados-assados img{
+    height: 310px;
+}
+
+.salgados-fritos ul, .salgados-assados ul{
+    display: inline-block;
+    list-style-type: disc;
+    color: var(--cor-texto-preto);
+    font-weight: 400;
+    text-align: left;
+    width: 500px;
+}
+
+.salgados-fritos li, .salgados-assados li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+ 
+#ifood{
+    height: 38px;
+    margin-top: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+} 
+#whatsapp{
+    height: 36px;
+    padding-bottom: 4px;
+}
+
+#insta{
+    height: 32px;
+    margin-bottom: 2px;
+}
+
+
+/* Aplicando no Doces.html */
+
+#banner-doces{
+    height: 500px;
+    width: 100%;
+    
+    background-image: url(./img/banner-brigadeiro.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner-doces h1{
+    color: var(--cor-texto-branco);
+    font-size: 48px;
+}
+
+.doces-tradicionais{
+    background-color: var(--fundo-cinza);
+    padding-bottom: 110px;
+}
+.doces-tradicionais h1{
+    color: var(--fundo-marrom);
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 800;
+}
+.doces-tradicionais p{
+    color: var(--fundo-marrom);
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+
+#doces-gourmet{
+    margin-top: 30px;
+}
+
+.doces-tradicionais img, .cardapio-especial img{
+    height: 310px;
+}
+
+.doces-tradicionais ul, .cardapio-especial ul{
+    display: inline-block;
+    list-style-type: disc;
+    color: var(--cor-texto-preto);
+    font-weight: 400;
+    text-align: left;
+    width: 500px;
+}
+
+.doces-tradicionais li, .cardapio-especial li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+#linha-cinza {
+    height: 3px; 
+    background-color: #ac9474; 
+    border: none;
+}
+
+.cardapio-especial{
+    background-color: var(--fundo-amarelado);
+}
+.cardapio-especial h1{
+    color: var(--fundo-marrom);
+    text-align: center;
+    font-weight: 800;
+}
+.cardapio-especial h2{
+    color: var(--fundo-marrom);
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.cardapio-especial p{
+    color: var(--fundo-marrom);
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.imagem-lista{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 30px;
+}
+.cardapio-especial hr { 
+    height: 3px; 
+    background-color: #dca44c; 
+    border: none;
+}
+.cardapio-especial #traco-fino{
+    height: 2px; 
+    background-color: #dca44c; 
+    border: none;
+}
+.cardapio-especial .adicionais{
+    text-align: right;
+}
+.cardapio-especial iframe{
+    display: block;
+    margin: 50px auto 0px;
+}
+
+
+/* Aplicando no Sobre nos.html */
+
+#banner-sobre{ 
+    background-color: var(--fundo-amarelado);
+    
+}
+#banner-sobre h1{
+    text-align: center;
+    color: var(--fundo-marrom);
+    font-size: 48px;
+
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.horarioLocal{
+    background-color: var(--fundo-cinza);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.horarioLocal div{
+    display: inline-block;
+}
+.horarioLocal h1{
+    text-align: center;
+    color: var(--fundo-marrom);
+}
+
+.horario{
+    text-align: center;
+}
+
+.horario h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.horario ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.horario li{
+    margin-bottom: 13px;
+    font-size: 18px;
+}
+.localizacao p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.formulario{
+    background-color: var(--fundo-amarelado);
+}
+.formulario h1{
+    color: var(--fundo-marrom);
+}
+
+form{
+    border: 3px solid (255, 0, 191);
+    width: 350px;
+    background-color: var(--fundo-marrom);
+    border-radius: 8px;
+
+    margin: 30px auto;
+    padding: 30px;
+}
+label{
+    display: block;
+    color: var(--cor-texto-branco);
+    font-size: 18px;
+}
+input, select{
+    font-size: 18px;
+    background-color: var(--fundo-cinza);
+    border: none;
+    border-radius: 3px;
+
+    margin-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 50px;
+}
+
+#enviar{
+    padding: 4px 10px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--fundo-cinza);
+    color: var(--cor-texto-preto);
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+footer h1, footer ul{
+    padding: 0 175px;
+}
+
+footer hr{
+    height: 3px; 
+    background-color: #8f5e46; 
+    border: none;
+    margin: 45px 0;
+
+}
